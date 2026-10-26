@@ -1,0 +1,29 @@
+{
+  "data_origin": "SYNTHETIC; NO PHYSICAL HARDWARE OR MEASURED DATA",
+  "settings": [
+    0.7,
+    0.4
+  ],
+  "config": {
+    "dead_volume_ml": 0.3,
+    "noise_std": 0.004,
+    "drift_per_min": 2e-05,
+    "flush_volumes": 3.0
+  },
+  "event_log": [
+    {
+      "event": "virtual_flush",
+      "flush_time_min": 2.2499999999999996,
+      "precursor_setting": 0.7,
+      "flow_setting": 0.4
+    },
+    {
+      "event": "virtual_acquire",
+      "frames": 31,
+      "channels": [
+        "parallel",
+        "perpendicular"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "source": "User-provided raw data ZIP for Baumgartner coauthored 2024 Porphyrins on acid paper",
+  "transient_absorption_matrices": 20,
+  "steady_state_text_files": 8,
+  "example_file": "data upload/Figure 2+S2/TCPPinDMF_d100_with0000mMMSA_nostir_bubble25min_515nm_1p4mW00_TA.csv",
+  "example_delay_rows": 109,
+  "example_wavelength_columns": 648,
+  "wavelength_bounds_nm": [
+    267.000072,
+    942.707724
+  ],
+  "example_delay_first_col_min_max": [
+    -100.0,
+    10000.0
+  ],
+  "example_negative_delay_count": 6,
+  "example_duplicate_delays": 2,
+  "example_nonmonotonic": true,
+  "fitting_status": "NOT FIT: delay axis unit, baseline and acquisition semantics must be verified; multi-state kinetics not reproduced",
+  "mof_supplement": "2021 Chemical Science PDF includes polarized FTIR graphs, instrumental setup and equations but does not supply numeric FTIR spectra as CSV"
+}

@@ -1,0 +1,37 @@
+{
+  "source": "Baumgartner et al., Chemical Science (2021), DOI 10.1039/D1SC02370E, Supplementary Information pp. 6,8,13",
+  "nature": "analytical reproduction of published equation and reported layer thickness; no digitized or raw MOF spectral data",
+  "field_intensities_paper_estimate": {
+    "Ex2": 0.3,
+    "Ey2": 0.33,
+    "Ez2": 0.37
+  },
+  "ratios_with_equal_fields": {
+    "S0_alpha90": 2.0,
+    "S1_alpha90": 1.0,
+    "S1_alpha0": "infinite"
+  },
+  "ratios_with_reported_fields": {
+    "S0_alpha90": 2.0303030303030303,
+    "S1_alpha90": 0.9090909090909091,
+    "S1_alpha0": "infinite"
+  },
+  "layer_by_layer": {
+    "monolayer_spacing_angstrom": 10.8,
+    "layers": 40,
+    "predicted_nm": 43.2,
+    "measured_approx_nm": 50,
+    "difference_nm": 6.799999999999997,
+    "observation_note": "Authors report approximately 50 nm for 3D SURMOFs; not a sample-wise calibration."
+  },
+  "reported_porosity_estimates": {
+    "CuBDC": 0.81,
+    "Cu2_NDC2_DABCO": 0.91
+  },
+  "limitations": [
+    "Field fractions approximated from refractive-index and porosity assumptions",
+    "Dichroic ratio alone cannot uniquely infer S and alpha",
+    "No quantitative polarized FTIR data provided in this input PDF",
+    "Linear nominal layer thickness is a geometrical reference not a kinetic law"
+  ]
+}

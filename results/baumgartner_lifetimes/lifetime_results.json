@@ -1,0 +1,51 @@
+{
+  "methodology_note": "Descriptive fits; bootstrap assumes independent residuals and does not account for instrument/systematic uncertainty.",
+  "results": [
+    {
+      "dataset": "neutral",
+      "source_member": "data upload/Figure 2+S2/TCPPinDMF_d100_with0000mMMSA_nostir_bubble25min_515nm_1p4mW00_TA.csv",
+      "extracted_wavelength_nm": 419.478151,
+      "n_points": 72,
+      "time_unit_assumption": "microseconds (cross-checked against article)",
+      "time_fit_range_us": [
+        10,
+        8000
+      ],
+      "fit_model": "A exp(-time/tau)+offset",
+      "tau_ms": 1.0557846391509955,
+      "tau_95pct_residual_bootstrap_ms": [
+        1.0136233314281062,
+        1.1031470465713984
+      ],
+      "r_squared": 0.996629180993938,
+      "amplitude": -0.06083103003624864,
+      "offset": -0.00424430692737364,
+      "published_tau_ms": 1.2,
+      "relative_difference_pct": -12.017946737417036,
+      "bootstrap_successes": 500
+    },
+    {
+      "dataset": "fully_protonated",
+      "source_member": "data upload/Figure 2+S2/TCPPinDMF_d100_with1024mMMSA_freshsample_nostir_bubble25min_655nm_0p7mW00_TA.csv",
+      "extracted_wavelength_nm": 446.631782,
+      "n_points": 72,
+      "time_unit_assumption": "microseconds (cross-checked against article)",
+      "time_fit_range_us": [
+        10,
+        8000
+      ],
+      "fit_model": "A exp(-time/tau)+offset",
+      "tau_ms": 0.12064219324279443,
+      "tau_95pct_residual_bootstrap_ms": [
+        0.11147440792399803,
+        0.13209149221293043
+      ],
+      "r_squared": 0.9812538472876177,
+      "amplitude": -0.0194511844866661,
+      "offset": -0.00024235382728706492,
+      "published_tau_ms": 0.12,
+      "relative_difference_pct": 0.5351610356620305,
+      "bootstrap_successes": 500
+    }
+  ]
+}

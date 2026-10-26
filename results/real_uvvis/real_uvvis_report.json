@@ -1,0 +1,46 @@
+{
+  "source_doi": "10.5061/dryad.rxwdbrvqg",
+  "source_file": "2_UV-Vis_P-4_thin-film_310nm.csv",
+  "origin": "external published experimental thin-film UV-Vis (not MOF)",
+  "data_role": "independent test of file ingestion / descriptive feature extraction only; not BO validation",
+  "spectra": {
+    "P-4": {
+      "sample_count": 501,
+      "wavelength_nm": [
+        199.98929,
+        699.98468
+      ],
+      "raw_max_nm": 199.98929,
+      "raw_max_au": 0.95723,
+      "raw_auc_au_nm": 131.5466957204769,
+      "raw_min_au": -0.000506,
+      "normalized_max_au": 1.02065,
+      "flags": [
+        "maximum_on_measurement_boundary",
+        "small_negative_signal_present_no_blank_correction"
+      ]
+    },
+    "D-4": {
+      "sample_count": 501,
+      "wavelength_nm": [
+        199.98929,
+        699.98468
+      ],
+      "raw_max_nm": 199.98929,
+      "raw_max_au": 0.61016,
+      "raw_auc_au_nm": 68.94603678375839,
+      "raw_min_au": -0.000582,
+      "normalized_max_au": 0.65058,
+      "flags": [
+        "maximum_on_measurement_boundary",
+        "small_negative_signal_present_no_blank_correction"
+      ]
+    }
+  },
+  "limitations": [
+    "P-4 and D-4 are chemical states, not polarization channels",
+    "Raw and normalized values are alternate representations, not independent replicates",
+    "No blank/reference traces or uncertainty/replicates supplied; do not infer quantum yield or kinetic rate",
+    "Peaks at measurement-window boundaries should not be interpreted as resolved maxima"
+  ]
+}

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, cite the repository and the original data publications separately."
+title: "MOF Spectra AutoLab"
+authors:
+  - family-names: Tat
+    given-names: Sana
+version: 1.0.0
+date-released: 2026-10-26
+license: MIT

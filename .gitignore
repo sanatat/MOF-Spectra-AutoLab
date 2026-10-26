@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+.DS_Store
+*.log
+# Published source data must be obtained separately
+data/published_uvvis/*.csv

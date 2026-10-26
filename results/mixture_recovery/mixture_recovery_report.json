@@ -1,0 +1,61 @@
+{
+  "source_doi": "10.5061/dryad.rxwdbrvqg",
+  "source_file": "2_UV-Vis_P-4_thin-film_310nm.csv",
+  "measured_content": "Two reported experimental endmember spectra only",
+  "generated_content": "Simulated linear mixtures, noise and baseline drift (no measured mixtures or kinetic timepoints)",
+  "model": "y = f*P + (1-f)*D + intercept + linear baseline + Gaussian noise, 0<=f<=1",
+  "chosen_wavelength_nm": [
+    251.00829,
+    649.01794
+  ],
+  "wavelength_points": 399,
+  "condition_number_design": 6.272887166744114,
+  "seed": 42,
+  "repetitions_per_fraction": 80,
+  "baseline_drift_scale_relative_to_max": 0.01,
+  "noise_results": [
+    {
+      "relative_noise": 0.002,
+      "n_mixtures": 880,
+      "mae": 0.0003469694963850217,
+      "naive_mae": 0.012048551442367977,
+      "rmse_fraction": 0.00046194062250038103,
+      "mae_bootstrap_95pct": [
+        0.00032943685437843303,
+        0.00036722978354766024
+      ],
+      "fraction_at_bound_pct": 8.863636363636363
+    },
+    {
+      "relative_noise": 0.01,
+      "n_mixtures": 880,
+      "mae": 0.001779939329856459,
+      "naive_mae": 0.012153657906412813,
+      "rmse_fraction": 0.0023111689166912053,
+      "mae_bootstrap_95pct": [
+        0.00168038627941844,
+        0.0018751652185180188
+      ],
+      "fraction_at_bound_pct": 8.068181818181818
+    },
+    {
+      "relative_noise": 0.03,
+      "n_mixtures": 880,
+      "mae": 0.005228998712193838,
+      "naive_mae": 0.012956161067504812,
+      "rmse_fraction": 0.00689128167333935,
+      "mae_bootstrap_95pct": [
+        0.004918303263547367,
+        0.005563769884920435
+      ],
+      "fraction_at_bound_pct": 8.068181818181818
+    }
+  ],
+  "limitations": [
+    "Performance is an in-model recovery test: mixtures created using same endmembers used for fitting",
+    "No time series or actual mixture standards are included, so no chemical conversion fraction or rate can be inferred",
+    "Linear absorbance mixing, constant paths and drift shape are assumptions, not experimentally checked",
+    "The source is a non-MOF photochemical thin film; this is not MOF thin-film growth spectroscopy",
+    "Bootstrap intervals quantify variation under the chosen simulation only, not experimental confidence"
+  ]
+}

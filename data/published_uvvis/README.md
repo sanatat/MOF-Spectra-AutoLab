@@ -1,0 +1,1 @@
+External data is not redistributed in this repository. Download `2_UV-Vis_P-4_thin-film_310nm.csv` from https://doi.org/10.5061/dryad.rxwdbrvqg and place it here to run the Dryad tests and analyses. The material is photoactive pyrimidone, not a MOF.

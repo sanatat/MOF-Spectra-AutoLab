@@ -1,0 +1,14 @@
+{
+  "type": "synthetic simulation, not experimental measurements",
+  "seed": 42,
+  "n_experiments": 14,
+  "best_step": 13,
+  "best_settings": [
+    0.684831012662763,
+    0.44996258890915153
+  ],
+  "best_score": 1.555195308498624,
+  "initial_best_score": 1.362959581778972,
+  "objective": "baseline-corrected peak absorbance + 0.7 * polarization contrast",
+  "limitations": "illustrative kinetics, normalized settings, simplified Gaussian absorption, no hardware or experimental validation"
+}
